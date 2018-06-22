@@ -1,0 +1,43 @@
+body{ margin: 0; padding: 0; background-color: #ffe;}
+.wrapper{ width: 100%; }
+table{ color: #346; line-height: 1.1em; font-size: 1.2em; width: 100%; margin: 0px auto; font-weight: bold; text-shadow: 0px -1px 1px #ddc; position: absolute !important;}
+td{ text-align: center;  position: relative; border: 2px #bcc solid;}
+td:first-child{ width: 10%;}
+thead{ line-height: 1em;}
+thead tr td{ padding-top: 14px; padding-bottom: 14px; }
+#sum{ height: 5%; }
+#copy{ height: 3%; font-weight: normal; color: #899; font-size: 0.8em; border: none;}
+thead tr:nth-child(2n+1){
+   background-color: #cdd;
+}
+tbody tr:nth-child(2n){
+   background-color: #cdd;
+}
+tbody tr:nth-child(2n+1){
+   background-color: #dee;
+}
+
+@keyframes flashing{
+   0% {background: #8f8;}
+   50% {background: #ff5;}
+   100% {background: #8f8;}
+}
+
+.now{
+   background: #ffa;
+   animation: flashing 1s;
+   animation-iteration-count: infinite;
+}
+
+.brutal{ color: #c33; }
+.wolf{ color: #834; }
+.wish{ color: #666; }
+.power{ color: #d73; }
+.research{ color: #338; }
+.rune{ color:#668; }
+.recruit{ color:#919; }
+.build{ color: #a61; }
+.clean{ color: #4a6; }
+#tiger{ position: absolute; float: left; top: 2px; left: 2px; font-size: 0.8em; color: #a44;}
+
+#copy td{ background-color: #dee;}
